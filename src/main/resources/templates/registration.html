@@ -8,12 +8,7 @@ body{
 	 background : #e2e2e2 ! important ;
 	
 }
-.p1{
-width : 100%;
-    height:93vh ;
-    background:url(../img/banner.jpg);
-    background-size:cover ;
-}
+
 .my-card{
 
 padding:20px;
@@ -32,7 +27,7 @@ padding: 0px 2px 20px 2px;
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark " style="background:#800080 !important">
+<nav class="navbar navbar-expand-lg navbar-dark " style="background:black !important">
 	<a class="navbar-brand" href="#">Library Management System</a>
 	
 	<button class="navbar-toggler" type ="button" data-toggle = "collapse "
@@ -44,9 +39,8 @@ padding: 0px 2px 20px 2px;
 	
 	<div class = "collapse navbar-collapse" id="navbarSupportedContent">
 		   <ul class = "navbar-nav ms-auto text-uppercase" >
-		       <li class = "nav-item active" ><a class="nav-link" href="#" th:href="@{/home}"> Home
-		       	</a>
-		       	</li>
+		       
+		       	
 		       <li class = "nav-item active" > <a class = " nav-link " href = "#"
      			tabindex = "-1"  th:ref="@{/registration}">Sign up</a> </li >
 				<li class ="nav-item active"><a class ="nav-link " href = "#"
@@ -57,7 +51,7 @@ padding: 0px 2px 20px 2px;
 </div >
 </nav >
 
-<div class="p1">
+
 <!-- reg for, -->
 <div class="container">
 <div class="row">
@@ -100,7 +94,7 @@ padding: 0px 2px 20px 2px;
 </div>
 </div>
 </div>
-</div>
+
 
 </body>
 </html>

@@ -23,8 +23,7 @@ public class UserRegistrationController {
 	
 	private UserService userService;
 	
-	@Autowired
-	UserRepository userRepo;
+	
 	
 	public UserRegistrationController(UserService userService) {
 		super();

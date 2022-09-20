@@ -29,10 +29,7 @@ public class MainController {
 	public String login() {
 		return "login";
 	}
-	@GetMapping("/home")
-	public String homepage(){
-		return "home";
-	}
+	
 
 	//user home page where books are shown
 	@GetMapping("/")
@@ -78,8 +75,5 @@ public class MainController {
 		return "redirect:/";
 	}
 	//books issued to user
-	@GetMapping("/books_issued")
-	public String booksissued() {
-	return "books_issued";}
 	
 }
